@@ -1,0 +1,65 @@
+.App
+{
+  position:relative;
+  top: 300px;
+  left: 700px;
+  width: 500px;
+  height:525px;
+  border: solid 2px #fff;
+}
+
+.header
+{
+  border: 1px,solid #ffcaca;
+  display:flex;
+  gap: 50px;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+
+}
+
+.info{
+
+  display: flex;
+  gap: 110px;
+  margin: 10px;
+}
+
+.choice-panel
+{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.computer-choice 
+{
+  height: 200px;
+  width: 240px;
+  border: solid 1px #fff;
+}
+.player-choice
+{
+  height: 200px;
+  width: 240px;
+  border: solid 1px #fff;
+}
+.buttons
+{
+  position: absolute;
+  top:350px;
+  display: flex;
+  width: 50px;
+  margin: 10px;
+  gap: 100px;
+}
+.message
+{
+  border: 1px solid #fff;
+  height: 70px;
+  width:480px;
+  margin:10px;
+  position:relative;
+  top:100px;
+}
